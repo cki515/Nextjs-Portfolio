@@ -57,9 +57,10 @@ export default function ProjectItem({ data }) {
 
   return (
     <div className="project-card">
-      <Link href={`/detail/${data.id}`}>
+      <Link draggable="false" href={`/detail/${data.id}`}>
         <div>
           <Image
+            draggable="false"
             className="rounded-t-xl"
             src={image}
             layout="responsive"
@@ -92,7 +93,7 @@ export default function ProjectItem({ data }) {
             )
           </p>
           <hr />
-          <div className="flex items-start mt-2 overflow-scroll relative">
+          <div className="flex items-start mt-2 overflow-scroll">
             {tags.map((tag) => (
               <span
                 className="odd:bg-violet-300 odd:dark:bg-violet-700/20 even:bg-rose-300 even:dark:bg-rose-700/20 px-2 py-1 mr-2 rounded-md w-30"

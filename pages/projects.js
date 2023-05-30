@@ -1,7 +1,6 @@
 import Head from "next/head";
 import Layout from "../components/layout";
 import ProjectItem from "../components/projects/project-item";
-import ProjectDetail from "./detail/[id]";
 
 export default function Projects({ projects }) {
   return (
@@ -11,7 +10,7 @@ export default function Projects({ projects }) {
           <Head>
             <title>Portfolio</title>
             <meta name="description" content="Nextjs portfolio app" />
-            <link rel="icon" href="/favicon.ico" />
+            <link draggable="false" rel="icon" href="/favicon.ico" />
           </Head>
           <div className="pt-10 text-4xl font-bold sm:text-6xl">
             All Projects :
