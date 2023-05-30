@@ -125,7 +125,7 @@ export default function ProjectDetail({ project }) {
               </>
             )}
             <hr />
-            <div className="flex items-start mt-2">
+            <div className="flex items-start mt-2 my-2">
               {tags.map((tag) => (
                 <span
                   className="odd:bg-violet-300 odd:bg-violet-700/20 even:bg-rose-300 even:dark:bg-rose-700/20 px-2 py-1 mr-2 rounded-md w-30"
@@ -135,6 +135,13 @@ export default function ProjectDetail({ project }) {
                 </span>
               ))}
             </div>
+            <hr />
+            <Link
+              className="mt-2 p-2 flex justify-center text-white bg-indigo-500 hover:bg-indigo-600 text-lg rounded-md w-24"
+              href="/projects"
+            >
+              Go Back
+            </Link>
           </div>
         </div>
       </Layout>
