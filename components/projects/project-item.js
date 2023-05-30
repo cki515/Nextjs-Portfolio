@@ -92,7 +92,7 @@ export default function ProjectItem({ data }) {
             )
           </p>
           <hr />
-          <div className="flex items-start mt-2 overflow-scroll">
+          <div className="flex items-start mt-2 overflow-scroll relative">
             {tags.map((tag) => (
               <span
                 className="odd:bg-violet-300 odd:dark:bg-violet-700/20 even:bg-rose-300 even:dark:bg-rose-700/20 px-2 py-1 mr-2 rounded-md w-30"

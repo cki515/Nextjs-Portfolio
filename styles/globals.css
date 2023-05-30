@@ -20,6 +20,13 @@
 }
 
 body {
+  -webkit-user-select: none;
+  -moz-user-select: -moz-none;
+  -ms-user-select: none; 
+  user-select: none;
+}
+
+body {
   font-family: 'Nanum+Gothic', sans-serif;
   font-weight: 400;
 }
