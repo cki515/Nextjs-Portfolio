@@ -20,7 +20,7 @@ export default function Hero() {
           </span>
         </div>
         <div className="flex justify-center">
-          <Link href="projects">
+          <Link draggable="false" href="projects">
             <button className="btn-project">Go to Projects</button>
           </Link>
         </div>

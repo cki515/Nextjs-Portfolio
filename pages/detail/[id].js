@@ -66,11 +66,12 @@ export default function ProjectDetail({ project }) {
         <Head>
           <title>Portfolio_Detail</title>
           <meta name="description" content="Nextjs portfolio app" />
-          <link rel="icon" href="/favicon.ico" />
+          <link draggable="false" rel="icon" href="/favicon.ico" />
         </Head>
         <div className="flex flex-col mt-10 rounded-xl">
           <div>
             <Image
+              draggable="false"
               className="rounded-t-xl"
               src={image}
               layout="responsive"
@@ -106,6 +107,7 @@ export default function ProjectDetail({ project }) {
             <span className="my-2 text-xl whitespace-pre-wrap">{text}</span>
             <hr />
             <Link
+              draggable="false"
               className="hover:text-red-700 my-2"
               href={github}
               target="_blank"
@@ -116,6 +118,7 @@ export default function ProjectDetail({ project }) {
               <>
                 <hr />
                 <Link
+                  draggable="false"
                   className="hover:text-red-700 my-2"
                   href={url}
                   target="_blank"
@@ -137,6 +140,7 @@ export default function ProjectDetail({ project }) {
             </div>
             <hr />
             <Link
+              draggable="false"
               className="mt-2 p-2 flex justify-center text-white bg-indigo-500 hover:bg-indigo-600 text-lg rounded-md w-24"
               href="/projects"
             >

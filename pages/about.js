@@ -9,9 +9,9 @@ export default function About() {
           <Head>
             <title>About Me</title>
             <meta name="description" content="Nextjs portfolio app" />
-            <link rel="icon" href="/favicon.ico" />
+            <link draggable="false" rel="icon" href="/favicon.ico" />
           </Head>
-          <div className="flex flex-col p-3 gap-y-3">
+          <div className="flex flex-col p-3 gap-y-3 sm:mt-5">
             <p className="text-2xl font-bold"># INFOMATION</p>
             <hr />
             <div className="flex gap-2 text-xl">
@@ -21,7 +21,7 @@ export default function About() {
                 viewBox="0 0 24 24"
                 strokeWidth="1.5"
                 stroke="currentColor"
-                class="w-7 h-7"
+                className="w-7 h-7"
               >
                 <path
                   strokeLinecap="round"
@@ -39,7 +39,7 @@ export default function About() {
                 viewBox="0 0 24 24"
                 strokeWidth="1.5"
                 stroke="currentColor"
-                class="w-7 h-7"
+                className="w-7 h-7"
               >
                 <path
                   strokeLinecap="round"
@@ -58,7 +58,7 @@ export default function About() {
                 viewBox="0 0 24 24"
                 strokeWidth="1.5"
                 stroke="currentColor"
-                class="w-7 h-7"
+                className="w-7 h-7"
               >
                 <path
                   strokeLinecap="round"
@@ -76,7 +76,7 @@ export default function About() {
                 viewBox="0 0 24 24"
                 strokeWidth="1.5"
                 stroke="currentColor"
-                class="w-7 h-7"
+                className="w-7 h-7"
               >
                 <path
                   strokeLinecap="round"
@@ -96,7 +96,7 @@ export default function About() {
               </p>
             </div>
             <hr />
-            <div className="my-10"></div>
+            <div className="my-8"></div>
             <p className="text-2xl font-bold"># TECHNICAL EXPERIENCES</p>
             <hr />
             <p className="text-xl">- PROGRAMMING LANGUAGES: Java, JavaScript</p>
